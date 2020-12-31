@@ -1,0 +1,185 @@
+body{
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container
+{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.logo
+{
+	display: inline-block;	
+	width: 100%;clear:both;
+	background-color: #3B99A8;
+}
+.logo1
+{
+	display: inline;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.head1
+{
+	white-space: nowrap;
+    display: inline;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.head1:hover{
+	text-decoration: none;
+	color: white;
+}
+
+@media (min-width: 768px) { 
+	.head1{
+		font-weight: 16px;
+		display: inline;
+	}
+}
+
+.content{
+	background: black;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}
+
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    background-color: #e74c3c !important;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+  background-color: black;
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  color: #fff;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+.center
+{
+
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #AF3E3E;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn-contact {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn-contact:hover, .btn-contact:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+.footer a
+{
+	text-decoration: none;
+}
+
+.footer .copy a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+.footer a:hover
+{
+	text-decoration: none;
+}
