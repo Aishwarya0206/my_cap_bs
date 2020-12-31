@@ -31,6 +31,7 @@ body{
     color: black;
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .head1:hover{
